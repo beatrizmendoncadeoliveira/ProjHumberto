@@ -1,0 +1,43 @@
+Linx-03/10/19 as 14hrs
+
+JAVADOC
+Todas as DAO e BO ---documentar
+acima do public class colocar /**
+* Esta classe é responsavel por realizar o CRUD
+*na tabela RW_T_USUARIO, onde NM_USUARIO e CD_USUARIO
+*são colunas obrigatórias.
+tipos de dados de cada linha(varchar)
+3 atributos que representam o jdbc
+é importante o metodo fechar a conexao
+*@author 1berto
+*@author 2berto
+*..Todos integrantes do grupo
+este @ é anotation
+*@see br.com.fiap.beans.Usuario
+*@see br.com.fiap.bo.UsuarioBO
+coloca todas as classes que tem alguma ligacao com a classe documentada(exemplo a UsuarioDAO)
+*@version 1.0
+(versao dessa classe q eu quero atribuir)
+*@since 1.0
+(primeira versao)
+*/
+
+acima de cada metodo colocar /**
+--explicar o metodo
+Neste metodo por meio da chave primaria sera retornado um objeto Usuario vazio ou preenchido.
+@param codigo
+@return
+@throws Exception
+@author Blabla
+@version 1.0
+
+
+*/
+
+fazer do CONSTRUTOR
+/**
+*O metodo construtor é resposnavel por abrir a conexao
+*@author Bla
+@throws Exception
+*@version 1.0
+*/
